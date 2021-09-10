@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace Phone
 {
-    interface ISmart
+    class Lumia : ISmart
     {
-        string GetName();
+        string GetName()
+        {
+            return "Lumia";
+        }
     }
 }

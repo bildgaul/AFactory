@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace Phone
 {
-    interface ISmart
+    class SamsungFactory : IPhoneFactory
     {
-        string GetName();
+        ISmart GetISmart()
+        {
+            new 
+        }
     }
 }

@@ -19,7 +19,13 @@ namespace Phone
 
         public void CheckProducts()
         {
-
+            switch (manu)
+            {
+                case MANUFACTURERS.SAMSUNG:
+                    {
+                        SmasungFactory samsung = neww SamsungFactory();
+                    }
+            }
         }
     }
 }
