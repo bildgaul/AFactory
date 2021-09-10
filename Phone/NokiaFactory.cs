@@ -6,16 +6,16 @@ using System.Threading.Tasks;
 
 namespace Phone
 {
-    class SamsungFactory : IPhoneFactory
+    class NokiaFactory : IPhoneFactory
     {
         public ISmart GetISmart()
         {
-            return new GalaxyS2();
+            return new Lumia();
         }
         
         public IDumb GetIDumb()
         {
-            return new Genie();
+            return new Asha();
         }
     }
 }

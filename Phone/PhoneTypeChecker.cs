@@ -23,7 +23,24 @@ namespace Phone
             {
                 case MANUFACTURERS.SAMSUNG:
                     {
-                        SmasungFactory samsung = neww SamsungFactory();
+                        SamsungFactory samsung = new SamsungFactory();
+                        Console.WriteLine(samsung.GetISmart());
+                        Console.WriteLine(samsung.GetIDumb());
+                        break;
+                    }
+                case MANUFACTURERS.HTC:
+                    {
+                        HTCFactory htc = new HTCFactory();
+                        Console.WriteLine(htc.GetISmart());
+                        Console.WriteLine(htc.GetIDumb());
+                        break;
+                    }
+                case MANUFACTURERS.NOKIA:
+                    {
+                        NokiaFactory nokia = new NokiaFactory();
+                        Console.WriteLine(nokia.GetISmart());
+                        Console.WriteLine(nokia.GetIDumb());
+                        break;
                     }
             }
         }

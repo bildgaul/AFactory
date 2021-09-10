@@ -10,8 +10,14 @@ namespace Phone
     {
         static void Main(string[] args)
         {
-            PhoneTypeChecker phoneChecker = new PhoneTypeChecker(MANUFACTURERS.SAMSUNG);
-            phoneChecker.CheckProducts();
+            PhoneTypeChecker samsungChecker = new PhoneTypeChecker(MANUFACTURERS.SAMSUNG);
+            samsungChecker.CheckProducts();
+
+            PhoneTypeChecker htcChecker = new PhoneTypeChecker(MANUFACTURERS.HTC);
+            htcChecker.CheckProducts();
+
+            PhoneTypeChecker nokiaChecker = new PhoneTypeChecker(MANUFACTURERS.NOKIA);
+            nokiaChecker.CheckProducts();
         }
     }
 }

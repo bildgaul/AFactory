@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Phone
 {
-    class Lumia : ISmart
+    class Asha : IDumb
     {
         public string GetName()
         {
-            return "Lumia";
+            return "Asha";
         }
     }
 }
